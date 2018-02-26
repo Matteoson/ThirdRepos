@@ -52,7 +52,7 @@
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(46, 13);
             this.lblQuantity.TabIndex = 0;
-            this.lblQuantity.Text = "Quantity";
+            this.lblQuantity.Text = "FEATURE 2";
             // 
             // txtQuantity
             // 
