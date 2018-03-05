@@ -30,8 +30,6 @@
         {
             this.lblQuantity = new System.Windows.Forms.Label();
             this.txtQuantity = new System.Windows.Forms.TextBox();
-            this.lblDiscount = new System.Windows.Forms.Label();
-            this.txtDiscount = new System.Windows.Forms.TextBox();
             this.lblAmountDue = new System.Windows.Forms.Label();
             this.lblAmount = new System.Windows.Forms.Label();
             this.chkDiscount = new System.Windows.Forms.CheckBox();
@@ -40,8 +38,7 @@
             this.radBox = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
             this.cmdCalculate = new System.Windows.Forms.Button();
-         this.chkChild = new System.Windows.Forms.CheckBox();
-
+            this.chkChild = new System.Windows.Forms.CheckBox();
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,22 +57,6 @@
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(91, 20);
             this.txtQuantity.TabIndex = 1;
-            // 
-            // lblDiscount
-            // 
-            this.lblDiscount.AutoSize = true;
-            this.lblDiscount.Location = new System.Drawing.Point(148, 300);
-            this.lblDiscount.Name = "lblDiscount";
-            this.lblDiscount.Size = new System.Drawing.Size(46, 13);
-            this.lblDiscount.TabIndex = 30;
-            this.lblDiscount.Text = "Discount";
-            // 
-            // txtDiscount
-            // 
-            this.txtDiscount.Location = new System.Drawing.Point(111, 348);
-            this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(91, 20);
-            this.txtDiscount.TabIndex = 31;
             // 
             // lblAmountDue
             // 
@@ -160,7 +141,7 @@
             this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
             // 
             // chkChild
-            
+            // 
             this.chkChild.AutoSize = true;
             this.chkChild.Location = new System.Drawing.Point(261, 95);
             this.chkChild.Name = "chkChild";
@@ -169,7 +150,6 @@
             this.chkChild.Text = "Child";
             this.chkChild.UseVisualStyleBackColor = true;
             this.chkChild.CheckedChanged += new System.EventHandler(this.chkChild_CheckedChanged);
-          
             // 
             // TicketsForm
             // 
@@ -184,8 +164,6 @@
             this.Controls.Add(this.lblAmountDue);
             this.Controls.Add(this.txtQuantity);
             this.Controls.Add(this.lblQuantity);
-            this.Controls.Add(this.txtDiscount);
-            this.Controls.Add(this.lblDiscount);
             this.Name = "TicketsForm";
             this.Text = "Theater Ticket Purchase";
             this.Load += new System.EventHandler(this.TicketsForm_Load);
@@ -200,8 +178,6 @@
 
         private System.Windows.Forms.Label lblQuantity;
         private System.Windows.Forms.TextBox txtQuantity;
-        private System.Windows.Forms.Label lblDiscount;
-        private System.Windows.Forms.TextBox txtDiscount;
         private System.Windows.Forms.Label lblAmountDue;
         private System.Windows.Forms.Label lblAmount;
         private System.Windows.Forms.CheckBox chkDiscount;

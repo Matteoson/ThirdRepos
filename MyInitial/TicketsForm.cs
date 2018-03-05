@@ -52,7 +52,7 @@ namespace Ticketing
 
         private void chkDiscount_CheckedChanged(object sender, EventArgs e)
         {
-           chkChild.Checked = false;
+            chkChild.Checked = false;
         }
 
         private void chkChild_CheckedChanged(object sender, EventArgs e)
